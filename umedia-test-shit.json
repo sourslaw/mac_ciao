@@ -1,0 +1,220 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13303/manifest.json",
+  "label": "Spitz, dog",
+  "metadata": [
+    {
+      "label": "Parent Collection Name",
+      "value": "Bell Museum of Natural History Records (ua-00876); http://purl.umn.edu/41476"
+    },
+    {
+      "label": "Additional Notes",
+      "value": "Forms part of the Exploring Minnesota's Natural History digitization project."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "4781"
+    },
+    {
+      "label": "Caption",
+      "value": "Breckenridge"
+    },
+    {
+      "label": "City or Township",
+      "value": "Winton"
+    },
+    {
+      "label": "Contact Information",
+      "value": "University of Minnesota Libraries, University Archives. 218 Elmer L. Andersen Library, 222 - 21st Avenue South, Minneapolis, MN 55455; https://www.lib.umn.edu/uarchives"
+    },
+    {
+      "label": "Continent",
+      "value": "North America"
+    },
+    {
+      "label": "Contributing Organization",
+      "value": "University of Minnesota Libraries, University Archives."
+    },
+    {
+      "label": "Contributor",
+      "value": "Breckenridge, Walter J., 1903-2003 (Photographer)"
+    },
+    {
+      "label": "Country",
+      "value": "United States"
+    },
+    {
+      "label": "Creator",
+      "value": "Bell Museum of Natural History"
+    },
+    {
+      "label": "Date of Creation",
+      "value": "1931-05"
+    },
+    {
+      "label": "DLS Identifier",
+      "value": "una437872; una437871"
+    },
+    {
+      "label": "Fiscal Sponsor",
+      "value": "This project has been financed in part with funds provided by the State of Minnesota through the Minnesota Historical Society from the Arts and Cultural Heritage Fund."
+    },
+    {
+      "label": "Item Physical Format",
+      "value": "Negatives (photographic) | http://vocab.getty.edu/aat/300127173"
+    },
+    {
+      "label": "Local Identifier",
+      "value": "uarc00876-4781a; uarc00876-4781b"
+    },
+    {
+      "label": "Local Rights Statement",
+      "value": "Use of this item may be governed by US and international copyright laws. You may be able to use this item, but copyright and other considerations may apply. For possible additional information or guidance on your use, please contact the contributing organization."
+    },
+    {
+      "label": "Persistent URL (PURL)",
+      "value": "http://purl.umn.edu/189790"
+    },
+    {
+      "label": "Project Affiliation",
+      "value": "p16022coll431"
+    },
+    {
+      "label": "Region or Area",
+      "value": "St. Louis County"
+    },
+    {
+      "label": "State or Province",
+      "value": "Minnesota"
+    },
+    {
+      "label": "Locally Assigned Subject Headings",
+      "value": "Bird banding; Birds; Birds -- Minnesota; Birds -- North Dakota; Wildlife Conservation; Itasca State Park (Minnesota); Birds -- Migration; Natural History -- Minnesota"
+    },
+    {
+      "label": "Title",
+      "value": "Spitz, dog"
+    },
+    {
+      "label": "Item Type",
+      "value": "Still image"
+    },
+    {
+      "label": "UMedia Archive",
+      "value": "yes"
+    },
+    {
+      "label": "Repository",
+      "value": "Minnesota Digital Library"
+    },
+    {
+      "label": "Source",
+      "value": "\u003Cspan\u003EFrom: \u003Ca href=\"https://cdm16022.contentdm.oclc.org/digital/collection/p16022coll349/id/13303\"\u003ESpitz, dog\u003C/a\u003E\u003C/span\u003E"
+    }
+  ],
+  "attribution": [
+    "",
+    "Use of this item may be governed by US and international copyright laws. You may be able to use this item, but copyright and other considerations may apply. For possible additional information or guidance on your use, please contact the contributing organization."
+  ],
+  "seeAlso": {
+    "@id": "https://cdm16022.contentdm.oclc.org/oai/oai.php?verb=GetRecord&identifier=oai:cdm16022.contentdm.oclc.org:p16022coll349/13303&metadataPrefix=oai_qdc",
+    "format": "application/xml",
+    "profile": "http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"
+  },
+  "within": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349/manifest.json",
+  "sequences": [
+    {
+      "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13303/sequence/s0",
+      "@type": "sc:Sequence",
+      "label": "Spitz, dog",
+      "canvases": [
+        {
+          "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13301/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Negative",
+          "images": [
+            {
+              "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13301/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll349:13301/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll349:13301",
+                  "width": 5661,
+                  "height": 4314,
+                  "tiles": [
+                    {
+                      "width": 5661,
+                      "scaleFactors": [1, 2, 4, 8, 16]
+                    }
+                  ],
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image"
+                },
+                "format": "image/jpeg",
+                "width": 5661,
+                "height": 4314
+              },
+              "on": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13301/canvas/c0"
+            }
+          ],
+          "width": 5661,
+          "height": 4314
+        },
+        {
+          "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13302/canvas/c1",
+          "@type": "sc:Canvas",
+          "label": "Envelope",
+          "images": [
+            {
+              "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13302/annotation/a1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll349:13302/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll349:13302",
+                  "width": 3396,
+                  "height": 4117,
+                  "tiles": [
+                    {
+                      "width": 3396,
+                      "scaleFactors": [1, 2, 4, 8, 16]
+                    }
+                  ],
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image"
+                },
+                "format": "image/jpeg",
+                "width": 3396,
+                "height": 4117
+              },
+              "on": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13302/canvas/c1"
+            }
+          ],
+          "width": 3396,
+          "height": 4117
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13303/range/r0",
+      "@type": "sc:Range",
+      "label": "Spitz, dog",
+      "ranges": [],
+      "canvases": [
+        "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13301/canvas/c0",
+        "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13302/canvas/c1"
+      ],
+      "viewingHint": "top"
+    }
+  ]
+}

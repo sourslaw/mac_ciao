@@ -1,0 +1,133 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://9d3a6597-e862-45a5-96fe-225acfe48c26",
+  "@type": "sc:Manifest",
+  "label": "Unpublished Dream Songs: Handwritten drafts, notes (1 of 2)",
+  "metadata": [
+    {
+      "label": "Collection title",
+      "value": "John Berryman Papers"
+    },
+    {
+      "label": "Collection description",
+      "value": "The John Berryman Papers contain manuscripts, notes, typescripts, galleys and proofs of works in poetry and prose. Also included are photographs, diaries, awards, financial records and other personal papers."
+    },
+    {
+      "label": "Item title",
+      "value": "Unpublished Dream Songs: Handwritten drafts, notes (1 of 2)"
+    },
+    {
+      "label": "Date created",
+      "value": "1967 - 1969"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://53956e47-db63-499a-8b21-0e8539d9a39d",
+      "@type": "sc:Sequence",
+      "label": [
+        {
+          "@value": "Normal Sequence",
+          "@language": "en"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "http://7df8cb5d-2b06-4af5-a2ca-b87eaa51c948",
+          "@type": "sc:Canvas",
+          "label": "01",
+          "height": 1274,
+          "width": 2356,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://a14cebb7-aa4c-403c-99f1-4a1a33361f39",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archivelab.org/iiif/jb_upds_01/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archivelab.org/iiif/jb_upds_01",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json"
+                  ]
+                },
+                "height": 1274,
+                "width": 2356
+              },
+              "on": "http://7df8cb5d-2b06-4af5-a2ca-b87eaa51c948"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://9f46d532-a4f5-4998-b2c4-8916e237b89a",
+          "@type": "sc:Canvas",
+          "label": "02",
+          "height": 2682,
+          "width": 1820,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://c0c7e002-ccbd-4490-a2ac-ed4f1f38a4a4",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archivelab.org/iiif/jb_upds_02/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archivelab.org/iiif/jb_upds_02",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json"
+                  ]
+                },
+                "height": 2682,
+                "width": 1820
+              },
+              "on": "http://9f46d532-a4f5-4998-b2c4-8916e237b89a"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://e27c9a6e-dd03-4a6f-8cd4-501949e09171",
+          "@type": "sc:Canvas",
+          "label": "03",
+          "height": 3274,
+          "width": 2542,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://d58166c4-c1f9-4e53-81cc-1ab369c353e5",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archivelab.org/iiif/jb_upds_03/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archivelab.org/iiif/jb_upds_03",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json"
+                  ]
+                },
+                "height": 3274,
+                "width": 2542
+              },
+              "on": "http://e27c9a6e-dd03-4a6f-8cd4-501949e09171"
+            }
+          ],
+          "related": ""
+        }
+      ]
+    }
+  ],
+  "structures": [],
+  "viewingHint": "paged"
+}
