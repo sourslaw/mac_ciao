@@ -2,7 +2,7 @@
 
 ![alt text](assets/screenshot.png)
 
-This is a static page for the illustrative application of IIIF Manifests and Universal Viewer. This is a resource for the talk, [placeholder](https://midwestarc.memberclicks.net/assets/documents/MeetingPrograms/MAC_SpringProgram_2024_FINAL.pdf).
+This is a static page for the illustrative application of IIIF Manifests and Universal Viewer. This is a resource for the talk, [‘Serving it Up with Ones and Zeroes:’ A Programmatic Workflow for Inserting Content Notices in Digital Collections](https://midwestarc.memberclicks.net/2025-call-for-poster-proposals).
 <hr>
 
 #### Speakers
