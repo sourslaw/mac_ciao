@@ -10,7 +10,8 @@ This is a static page for the illustrative application of IIIF Manifests and Uni
 - Scott Lawan, University of Minnesota, Libraries Web Applications Developer
 
 <hr>
-
+Additional Links
+- Link to the demo/example page may be found: [here](https://sourslaw.github.io/mac_ciao/)
 - Additional information regarding IIIF may be found: [here](https://iiif.io/)
 - Addtional information regarding what the University of Minnesota Libraries is doing with [Blacklight](https://github.com/projectblacklight/blacklight) or IIIF may be directed to: [Lawans@umn.edu](mailto:lawans@umn.edu)
 
