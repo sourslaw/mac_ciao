@@ -6,10 +6,11 @@ This is a static page for the illustrative application of IIIF Manifests and Uni
 <hr>
 
 #### Speakers
-- Theresa Berger, University of Minnesota, Head of Digital Library Services (session chair)
+- Theresa Berger, University of Minnesota, Head of Digital Library Services
 - Scott Lawan, University of Minnesota, Libraries Web Applications Developer
 
 <hr>
+
 - Additional information regarding IIIF may be found: [here](https://iiif.io/)
 - Addtional information regarding what the University of Minnesota Libraries is doing with [Blacklight](https://github.com/projectblacklight/blacklight) or IIIF may be directed to: [Lawans@umn.edu](mailto:lawans@umn.edu)
 
