@@ -1,3 +1,4 @@
+
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
@@ -7,14 +8,6 @@
     {
       "label": "Parent Collection Name",
       "value": "Bell Museum of Natural History Records (ua-00876); http://purl.umn.edu/41476"
-    },
-    {
-      "label": "Additional Notes",
-      "value": "Forms part of the Exploring Minnesota's Natural History digitization project."
-    },
-    {
-      "label": "Alternative Title",
-      "value": "4781"
     }
   ],
   "within": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349/manifest.json",

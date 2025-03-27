@@ -42,19 +42,34 @@
       window.addEventListener('uvLoaded', function(e) {
 
         myUV = createUV('#uv', {
-          // iiifResourceUri: 'assets/mac-mockup-compound-dream.json',
           iiifResourceUri: 'umedia-test-shit.json',
           configUri: 'uv-config.json'
         }, new UV.URLDataProvider());
 
-        myUV.on("created", function(obj) {
-          console.log('parsed metadata', myUV.extension.helper.manifest.getMetadata());
-          console.log('raw jsonld', myUV.extension.helper.manifest.__jsonld);
-        });
+        // myUV.on("created", function(obj) {
+        //   console.log('parsed metadata', myUV.extension.helper.manifest.getMetadata());
+        //   console.log('raw jsonld', myUV.extension.helper.manifest.__jsonld);
+        // });
       }, false);
     </script>
 
     <script src="uv/uv.js"></script>
+
+    <!-- fuck around area -->
+    <hr>
+    images:
+    <pre id="output_4" style="background-color: #dedbd2;"></pre>
+    <pre id="output_3" style="background-color: #b0c4b1;"></pre>
+
+
+
+
+
+
+    
+    <!-- json parse -->
+    <!-- <pre id="output_2" style="background-color: yellow;"></pre>
+    <pre id="output" style="background-color: green;"></pre> -->
 
     <!-- temp/mock up for umedia screenshots -->
     <hr>
@@ -81,5 +96,8 @@
     <hr>
 
   </div>
+
+  <!-- local script -->
+	<script src="./assets/script.js"></script>
 </body>
 </html>
