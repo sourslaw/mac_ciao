@@ -108,7 +108,7 @@ function myfunction(e) {
 	e.preventDefault();
 	var myText =  "you clicked the button and the viewer has been replaced with this text";
 	var ass = `<iframe
-		src="/test.html"
+		src="/mac_ciao/test.html"
 		name="targetframe"
 		allowTransparency="true"
 		scrolling="yes"
