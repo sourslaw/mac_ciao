@@ -103,12 +103,15 @@ const j_obj = [
   }
 ]
 
+// src="/test.html" for local
+// src="/mac_ciao/test.html" for deploy
+
 // update div w/ button click
 function myfunction(e) { 
 	e.preventDefault();
 	var myText =  "you clicked the button and the viewer has been replaced with this text";
 	var ass = `<iframe
-		src="/mac_ciao/test.html"
+		src="/test.html"
 		name="targetframe"
 		allowTransparency="true"
 		scrolling="yes"

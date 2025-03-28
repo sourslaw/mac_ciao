@@ -1,8 +1,8 @@
 {
-    "options": {
+  "options": {
+    "rightPanelEnabled": true
+  },
+  "modules": {
 
-    },
-    "modules": {
-
-    }
   }
+}

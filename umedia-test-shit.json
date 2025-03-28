@@ -5,16 +5,28 @@
   "label": "Spitz, dog",
   "metadata": [
     {
-      "label": "Parent Collection Name",
-      "value": "Bell Museum of Natural History Records (ua-00876); http://purl.umn.edu/41476"
+      "label": "Title",
+      "value": "Spitz, dog"
+    },
+    {
+      "label": "Date of Creation",
+      "value": "1931-05"
+    },
+    {
+      "label": "Creator",
+      "value": "Bell Museum of Natural History"
+    },
+    {
+      "label": "Contributor",
+      "value": "Breckenridge, Walter J., 1903-2003 (Photographer)"
     },
     {
       "label": "Additional Notes",
       "value": "Forms part of the Exploring Minnesota's Natural History digitization project."
     },
     {
-      "label": "Alternative Title",
-      "value": "4781"
+      "label": "Item Physical Format",
+      "value": "Negatives (photographic) | http://vocab.getty.edu/aat/300127173"
     }
   ],
   "within": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349/manifest.json",
