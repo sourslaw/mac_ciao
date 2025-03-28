@@ -103,35 +103,6 @@ const j_obj = [
   }
 ]
 
-// const myDiv = document.getElementById("output");
-// myDiv.innerHTML = JSON.stringify(j_obj[0], null, 4);
-// const myDiv_2 = document.getElementById("output_2");
-// myDiv_2.innerHTML = JSON.stringify(j_obj[0]["sequences"][0]["canvases"], null, 4);
-
-// try this, modify in place, which is arguably all we want . . 
-// https://stackoverflow.com/questions/50110267/write-to-json-file-without-node-js
-
-// store json in session
-sessionStorage.setItem("j_obj", JSON.stringify(j_obj[0]));
-// get json by key, set to variable for ease
-let jFromSess = sessionStorage.getItem("j_obj");
-let jFromSessPars = JSON.parse(jFromSess)
-
-// //
-// const myDiv_3 = document.getElementById("output_3");
-// myDiv_3.innerHTML = jFromSessPars["sequences"][0]["canvases"][0]["images"][0]["resource"]["@id"];
-// const myDiv_4 = document.getElementById("output_4");
-// myDiv_4.innerHTML = jFromSessPars["sequences"][0]["canvases"][1]["images"][0]["resource"]["@id"];
-
-// console.log( JSON.parse(jFromSess) )
-// console.log( jFromSessPars["sequences"][0]["canvases"] )
-// // the images
-// console.log( jFromSessPars["sequences"][0]["canvases"][0]["images"][0]["resource"]["@id"] )
-// console.log( jFromSessPars["sequences"][0]["canvases"][1]["images"][0]["resource"]["@id"] )
-
-// Multi-volume Work with Individually-bound Volumes
-// https://iiif.io/api/cookbook/recipe/0030-multi-volume/
-
 // update div w/ button click
 function myfunction(e) { 
 	e.preventDefault();
@@ -145,13 +116,6 @@ function myfunction(e) {
 		style="height: 100%; width: 100%"
 	>
 	</iframe>`
+
 	document.getElementById('uv').innerHTML = ass;
-} 
-
-
-
-function myfunction2(e) { 
-	e.preventDefault();
-	var myText2 = document.getElementById("uv");
-	document.getElementById('myDiv').innerHTML = myTexasst2;
 } 
