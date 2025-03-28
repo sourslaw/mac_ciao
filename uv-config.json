@@ -1,6 +1,7 @@
 {
   "options": {
-    "rightPanelEnabled": true
+    "rightPanelEnabled": true,
+    "leftPanelEnabled": false
   },
   "modules": {
 
