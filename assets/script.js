@@ -117,19 +117,41 @@ sessionStorage.setItem("j_obj", JSON.stringify(j_obj[0]));
 let jFromSess = sessionStorage.getItem("j_obj");
 let jFromSessPars = JSON.parse(jFromSess)
 
-//
-const myDiv_3 = document.getElementById("output_3");
-myDiv_3.innerHTML = jFromSessPars["sequences"][0]["canvases"][0]["images"][0]["resource"]["@id"];
+// //
+// const myDiv_3 = document.getElementById("output_3");
+// myDiv_3.innerHTML = jFromSessPars["sequences"][0]["canvases"][0]["images"][0]["resource"]["@id"];
+// const myDiv_4 = document.getElementById("output_4");
+// myDiv_4.innerHTML = jFromSessPars["sequences"][0]["canvases"][1]["images"][0]["resource"]["@id"];
 
-const myDiv_4 = document.getElementById("output_4");
-myDiv_4.innerHTML = jFromSessPars["sequences"][0]["canvases"][1]["images"][0]["resource"]["@id"];
-
-
-console.log( JSON.parse(jFromSess) )
-console.log( jFromSessPars["sequences"][0]["canvases"] )
-// the images
-console.log( jFromSessPars["sequences"][0]["canvases"][0]["images"][0]["resource"]["@id"] )
-console.log( jFromSessPars["sequences"][0]["canvases"][1]["images"][0]["resource"]["@id"] )
+// console.log( JSON.parse(jFromSess) )
+// console.log( jFromSessPars["sequences"][0]["canvases"] )
+// // the images
+// console.log( jFromSessPars["sequences"][0]["canvases"][0]["images"][0]["resource"]["@id"] )
+// console.log( jFromSessPars["sequences"][0]["canvases"][1]["images"][0]["resource"]["@id"] )
 
 // Multi-volume Work with Individually-bound Volumes
 // https://iiif.io/api/cookbook/recipe/0030-multi-volume/
+
+// update div w/ button click
+function myfunction(e) { 
+	e.preventDefault();
+	var myText =  "you clicked the button and the viewer has been replaced with this text";
+	var ass = `<iframe
+		src="/test.html"
+		name="targetframe"
+		allowTransparency="true"
+		scrolling="yes"
+		frameborder="0"
+		style="height: 100%; width: 100%"
+	>
+	</iframe>`
+	document.getElementById('uv').innerHTML = ass;
+} 
+
+
+
+function myfunction2(e) { 
+	e.preventDefault();
+	var myText2 = document.getElementById("uv");
+	document.getElementById('myDiv').innerHTML = myTexasst2;
+} 

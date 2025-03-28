@@ -17,6 +17,42 @@
       "@type": "sc:Sequence",
       "label": "Spitz, dog",
       "canvases": [
+				{
+          "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll415:4081/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "images": [
+            {
+              "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll415:4081/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll415:4081/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll415:4081",
+                  "width": 1700,
+                  "height": 2200,
+                  "tiles": [
+                    {
+                      "width": 1700,
+                      "scaleFactors": [1, 2, 4, 8, 16]
+                    }
+                  ],
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image"
+                },
+                "format": "image/jpeg",
+                "width": 1700,
+                "height": 2200
+              },
+              "on": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll415:4081/canvas/c0"
+            }
+          ],
+          "width": 1700,
+          "height": 2200
+        },
         {
           "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13301/canvas/c0",
           "@type": "sc:Canvas",
