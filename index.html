@@ -36,52 +36,16 @@
 
 <body>
   <div class="container pt-5">
-
+    <!-- basically an SPA -->
     <div id="uv" class="w-100"></div>
 
-    <script>
-      var myUV;
-
-      window.addEventListener('uvLoaded', function(e) {
-
-        myUV = createUV('#uv', {
-          iiifResourceUri: 'p16022coll349_13303.json',
-          configUri: 'uv-config.json'
-        }, new UV.URLDataProvider());
-
-        // myUV.on("created", function(obj) {
-        //   console.log('parsed metadata', myUV.extension.helper.manifest.getMetadata());
-        //   console.log('raw jsonld', myUV.extension.helper.manifest.__jsonld);
-        // });
-      }, false);
-    </script>
-
-    <script src="uv/uv.js"></script>
-
-		<hr>
-    <!-- make this a radio toggle to toggle back and forth ? -->
-		<div class="d-flex justify-content-center">
-			<input type="submit" name="button" id="button_2" value="update w/ content warning" onclick="myfunction(event)" />
-		</div>
-    <!-- add text explaining what this simulation is -->
-    <!-- add link back to github repo -->
-
     <hr>
-    test toggle:<br>
-		<div class="d-flex justify-content-center">
+
+    <div class="d-flex justify-content-center">
       <button class="favorite styled" id="myButton" type="button">update w/ content warning</button>
-
 		</div>
-    <hr>
-    <!-- toggle t e s t hole -->
-
 
     <hr>
-
-    <!-- <div  >
-      <b>Content notice:</b> Please note that some historical materials may contain harmful content and/or descriptions.</br>
-      <div class="umn-link"><b>Contact us about this resource <i class="fa fa-envelope"></i></b></div>
-    </div> -->
     
     <div id="item-details" class="py-3">
       <h3>About this item</h3>
@@ -99,7 +63,6 @@
       </dl>
     </div>
     <hr>
-
   </div>
 
   <!-- local script -->

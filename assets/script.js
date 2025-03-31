@@ -3,9 +3,6 @@
 // src="/test.html" for local
 // src="/mac_ciao/test.html" for deploy
 
-// comment out for testing. get around no "e" defined reference . . .
-// function myfunction(e) { 
-// 	e.preventDefault();
 function myfunction() { 
 	var iViewer = `<iframe
 		src="/test.html"
@@ -20,7 +17,6 @@ function myfunction() {
 	document.getElementById('uv').innerHTML = iViewer;
 } 
 
-// testing toggle
 function myfunction_b() { 
 	var iViewer = `<iframe
 		src="/test_b.html"
@@ -39,11 +35,11 @@ const button = document.getElementById('myButton');
 let toggle = false;
 
 function functionA() {
-  console.log('Function A executed');
+  console.log('load manifest w/ content warning insert');
 }
 
 function functionB() {
-  console.log('Function B executed');
+  console.log('load manifest w/o content warning insert');
 }
 
 button.addEventListener('click', function() {
@@ -59,3 +55,4 @@ button.addEventListener('click', function() {
 });
 
 // Click Function to change the display value of the input
+myfunction_b();
