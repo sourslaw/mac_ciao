@@ -15,6 +15,7 @@ function myfunction() {
 	</iframe>`
 
 	document.getElementById('uv').innerHTML = iViewer;
+	document.getElementById('myButton').innerHTML = "update w/o content warning";
 } 
 
 function myfunction_b() { 
@@ -29,6 +30,7 @@ function myfunction_b() {
 	</iframe>`
 
 	document.getElementById('uv').innerHTML = iViewer;
+  document.getElementById('myButton').innerHTML = "update w/ content warning";
 } 
 
 const button = document.getElementById('myButton');

@@ -1,9 +1,13 @@
 {
   "options": {
     "rightPanelEnabled": true,
-    "leftPanelEnabled": false
+    "leftPanelEnabled": true
   },
   "modules": {
-
+    "contentLeftPanel": {
+      "options": {
+        "panelOpen": false
+      }
+    }
   }
 }
