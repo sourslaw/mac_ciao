@@ -5,7 +5,7 @@
 
 function myfunction() { 
 	var iViewer = `<iframe
-		src="/test.html"
+		src="/mac_ciao/test.html"
 		name="targetframe"
 		allowTransparency="true"
 		scrolling="yes"
@@ -20,7 +20,7 @@ function myfunction() {
 
 function myfunction_b() { 
 	var iViewer = `<iframe
-		src="/test_b.html"
+		src="/mac_ciao/test_b.html"
 		name="targetframe"
 		allowTransparency="true"
 		scrolling="yes"
