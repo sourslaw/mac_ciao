@@ -1,61 +1,49 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13303/manifest.json",
-  "label": "Spitz, dog",
+  "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll135:1101/manifest.json",
+  "label": "CCI produce notice",
   "metadata": [
     {
       "label": "Title",
-      "value": "Spitz, dog"
+      "value": "CCI produce notice"
     },
     {
       "label": "Date of Creation",
-      "value": "1931-05"
-    },
-    {
-      "label": "Creator",
-      "value": "Bell Museum of Natural History"
-    },
-    {
-      "label": "Contributor",
-      "value": "Breckenridge, Walter J., 1903-2003 (Photographer)"
-    },
-    {
-      "label": "Additional Notes",
-      "value": "Forms part of the Exploring Minnesota's Natural History digitization project."
+      "value": "1950 - 1959"
     },
     {
       "label": "Item Physical Format",
-      "value": "Negatives (photographic) | http://vocab.getty.edu/aat/300127173"
+      "value": "Black-and-white photographs | http://vocab.getty.edu/aat/300128347"
     }
   ],
   "within": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349/manifest.json",
   "sequences": [
     {
-      "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13303/sequence/s0",
+      "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll135:1101/sequence/s0",
       "@type": "sc:Sequence",
-      "label": "Spitz, dog",
+      "label": "CCI produce notice",
       "canvases": [
         {
-          "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13301/canvas/c0",
+          "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll135:1101/canvas/c0",
           "@type": "sc:Canvas",
-          "label": "Negative",
+          "label": "CCI produce notice",
           "images": [
             {
-              "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13301/annotation/a0",
+              "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll135:1101/annotation/a0",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll349:13301/full/full/0/default.jpg",
+                "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll135:1101/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll349:13301",
-                  "width": 5661,
-                  "height": 4314,
+                  "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll135:1101",
+                  "width": 2950,
+                  "height": 2373,
                   "tiles": [
                     {
-                      "width": 5661,
+                      "width": 2950,
                       "scaleFactors": [1, 2, 4, 8, 16]
                     }
                   ],
@@ -63,50 +51,14 @@
                   "protocol": "http://iiif.io/api/image"
                 },
                 "format": "image/jpeg",
-                "width": 5661,
-                "height": 4314
+                "width": 2950,
+                "height": 2373
               },
-              "on": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13301/canvas/c0"
+              "on": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll135:1101/canvas/c0"
             }
           ],
-          "width": 5661,
-          "height": 4314
-        },
-        {
-          "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13302/canvas/c1",
-          "@type": "sc:Canvas",
-          "label": "Envelope",
-          "images": [
-            {
-              "@id": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13302/annotation/a1",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll349:13302/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll349:13302",
-                  "width": 3396,
-                  "height": 4117,
-                  "tiles": [
-                    {
-                      "width": 3396,
-                      "scaleFactors": [1, 2, 4, 8, 16]
-                    }
-                  ],
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "protocol": "http://iiif.io/api/image"
-                },
-                "format": "image/jpeg",
-                "width": 3396,
-                "height": 4117
-              },
-              "on": "https://cdm16022.contentdm.oclc.org/iiif/p16022coll349:13302/canvas/c1"
-            }
-          ],
-          "width": 3396,
-          "height": 4117
+          "width": 2950,
+          "height": 2373
         }
       ]
     }
