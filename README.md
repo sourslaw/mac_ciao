@@ -18,6 +18,7 @@ As best practices evolve and exemplary case studies for reparative description a
 
 #### Additional Links
 - Link to the demo/example page may be found: [here](https://sourslaw.github.io/mac_ciao/)
+- Link to the poster may be found: [here](https://drive.google.com/file/d/1vMQCiE5i17H3yKdswnYfWu9g3ObkS3IF/view)
 - Additional information regarding IIIF may be found: [here](https://iiif.io/)
 - Addtional information regarding what the University of Minnesota Libraries is doing with [Blacklight](https://github.com/projectblacklight/blacklight) or IIIF may be directed to: [Lawans@umn.edu](mailto:lawans@umn.edu)
 
